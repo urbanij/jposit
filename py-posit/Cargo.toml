@@ -1,6 +1,6 @@
 [package]
 name = "jposit"
-version = "0.3.2-dev"
+version = "0.3.3"
 authors = ["Francesco Urbani <francescourbanidue@gmail.com>"]
 description = "Rust and Python bindings for the Posit numerical format library."
 license = "MIT OR Apache-2.0"
@@ -9,7 +9,13 @@ homepage = "https://github.com/urbanij/jposit"
 documentation = "https://docs.rs/jposit"
 readme = "README.md"
 keywords = ["posit", "numerics", "computer arithmetics"]
-categories = ["science", "mathematics", "api-bindings", "ffi", "development-tools::ffi"]
+categories = [
+  "science",
+  "mathematics",
+  "api-bindings",
+  "ffi",
+  "development-tools::ffi",
+]
 edition = "2021"
 
 [lib]
